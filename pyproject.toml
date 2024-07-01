@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "generate-tiff-file"
+version = "0.1.0"
+description = "This project to convert images folders in file.tiff"
+authors = ["electr0n4ik"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^10.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
